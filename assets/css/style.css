@@ -2,16 +2,26 @@ body {
 	margin: auto 0;
 }
 
-nav {
+.container {
+
 }
 
-ul {
+.section {
+
+}
+
+.navbar {
+	border: dashed;
+}
+
+.nav-links {
 	display: flex;
+	font-size: 24px;
+	list-style: none;
 }
 
 li {
-
-	list-style: none;
+	padding: 20px;
 }
 
 a {
@@ -26,3 +36,20 @@ li:hover {
 	text-decoration: underline;
 }
 
+.push-link {
+	margin-left: auto;
+}
+
+.banner {
+	border: dashed;
+	padding: 225px;
+	font-size: 40px;
+	text-align: center;
+	vertical-align: middle;
+}
+
+.footer {
+	border: dashed;
+	font-size: 40px;
+	text-align: center;
+}
