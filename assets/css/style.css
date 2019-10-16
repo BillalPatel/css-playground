@@ -41,14 +41,31 @@ li:hover {
 }
 
 .banner {
+	display: flex;
 	border: dashed;
-	padding: 225px;
 	font-size: 40px;
-	text-align: center;
-	vertical-align: middle;
+	height: 50vh;
+	align-items: center;
+	justify-content: center;
 }
 
-.footer {
+.grid {
+	display: grid;
+	grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+	grid-gap: 10px;
+}
+
+.grid-box {
+	border: dashed;
+	padding: 20px;
+	margin: 20px;
+}
+
+.grid-box > img {
+	width: 100%;
+}
+
+footer {
 	border: dashed;
 	font-size: 40px;
 	text-align: center;
