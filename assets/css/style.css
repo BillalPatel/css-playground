@@ -2,16 +2,14 @@ body {
 	margin: auto 0;
 }
 
-.container {
-
-}
-
-.section {
-
-}
-
 .navbar {
 	border: dashed;
+}
+
+.sticky {
+	position: fixed;
+	top: 0;
+	width: 100%;
 }
 
 .nav-links {
@@ -21,7 +19,7 @@ body {
 }
 
 li {
-	padding: 20px;
+	padding: 0px 20px 0px 20px;
 }
 
 a {
@@ -40,15 +38,46 @@ li:hover {
 	margin-left: auto;
 }
 
-.banner {
+.section-banner {
+	display: flex;
 	border: dashed;
-	padding: 225px;
-	font-size: 40px;
-	text-align: center;
-	vertical-align: middle;
+	height: 50vh;
 }
 
-.footer {
+.banner-image {
+	height: auto;
+	width: 100%;
+	position: 0%, 0%;
+}
+
+.grid {
+	display: grid;
+	grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+	grid-gap: 10px;
+}
+
+.grid-box {
+	border: dashed;
+	padding: 20px;
+	margin: 20px;
+}
+
+.grid-box > img {
+	width: 100%;
+}
+
+.continue-link {
+	display: grid;
+	border-top: dashed;
+	font-size: 22px;
+	width: 100%;
+	justify-content: center;
+	align-items: center;
+	padding-top: 10px;
+	font-family: 'Nanum Gothic', sans-serif;
+}
+
+footer {
 	border: dashed;
 	font-size: 40px;
 	text-align: center;
