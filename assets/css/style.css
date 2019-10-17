@@ -2,16 +2,14 @@ body {
 	margin: auto 0;
 }
 
-.container {
-
-}
-
-.section {
-
-}
-
 .navbar {
 	border: dashed;
+}
+
+.sticky {
+	position: fixed;
+	top: 0;
+	width: 100%;
 }
 
 .nav-links {
@@ -21,7 +19,7 @@ body {
 }
 
 li {
-	padding: 20px;
+	padding: 0px 20px 0px 20px;
 }
 
 a {
@@ -40,13 +38,16 @@ li:hover {
 	margin-left: auto;
 }
 
-.banner {
+.section-banner {
 	display: flex;
 	border: dashed;
-	font-size: 40px;
 	height: 50vh;
-	align-items: center;
-	justify-content: center;
+}
+
+.banner-image {
+	height: auto;
+	width: 100%;
+	position: 0%, 0%;
 }
 
 .grid {
@@ -63,6 +64,17 @@ li:hover {
 
 .grid-box > img {
 	width: 100%;
+}
+
+.continue-link {
+	display: grid;
+	border-top: dashed;
+	font-size: 22px;
+	width: 100%;
+	justify-content: center;
+	align-items: center;
+	padding-top: 10px;
+	font-family: 'Nanum Gothic', sans-serif;
 }
 
 footer {
